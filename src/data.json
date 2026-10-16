@@ -1,0 +1,208 @@
+{
+  "projects": [
+    {
+      "number": "01 / 03",
+      "status": "featured",
+      "title": "SWAAD",
+      "slug": "swaad",
+      "subtitle": "Taste of Punjab",
+      "github": "https://github.com/anmolpunj-24/swaad",
+      "description": "A full-stack e-commerce platform and content management system built to manage products, product variants, categories, customers, authentication, and storefront data through a structured administrative workflow.",
+      "role": "Full-stack development — frontend, backend APIs, database modeling, and CMS workflows.",
+      "problem": "E-commerce operations require connected workflows for managing catalog data, product variants, customer information, and storefront content. These workflows need consistent data relationships and reliable validation across the application.",
+      "solution": "Built a Next.js-based CMS with a Node.js and Express backend, using MongoDB and Mongoose for persistence. Organized backend logic into controllers, services, and repositories to separate request handling, business rules, and database access.",
+      "features": [
+        "Product and category management with product variants, images, and SEO metadata",
+        "Customer management, authentication, and customer address workflows",
+        "Structured backend architecture using controllers, services, and repositories",
+        "Cart, wishlist, and order management workflows",
+        "Content management modules for page SEO, FAQs, tags, blogs, and coupons",
+        "Role and permission management for administrative access control"
+      ],
+      "engineering": "Designed related data models for products and variants, customers and addresses, and orders and order items. Implemented server-side validation, reusable API layers, and active-record filtering rules for normal users, with administrative access handled separately.",
+      "outcome": "Developed a modular e-commerce CMS foundation with connected catalog, customer, and order workflows, designed to support ongoing storefront and administrative feature development.",
+      "screenshots": [],
+      "technologies": [
+        {
+          "name": "Next.js",
+          "primary": true
+        },
+        {
+          "name": "React",
+          "primary": true
+        },
+        {
+          "name": "Node.js",
+          "primary": true
+        },
+        {
+          "name": "Express.js"
+        },
+        {
+          "name": "MongoDB",
+          "primary": true
+        },
+        {
+          "name": "Mongoose"
+        },
+        {
+          "name": "Tailwind CSS"
+        },
+        {
+          "name": "REST APIs"
+        }
+      ]
+    },
+    {
+      "number": "02 / 03",
+      "status": "upcoming",
+      "title": "PROJECT TWO",
+      "slug": "project-two",
+      "subtitle": "Coming next",
+      "description": "An upcoming project focused on solving a practical problem through thoughtful product design, maintainable application architecture, and reliable full-stack implementation.",
+      "screenshots": [],
+      "technologies": [
+        {
+          "name": "React",
+          "primary": true
+        },
+        {
+          "name": "Node.js",
+          "primary": true
+        },
+        {
+          "name": "REST APIs"
+        }
+      ]
+    },
+    {
+      "number": "03 / 03",
+      "status": "upcoming",
+      "title": "PROJECT THREE",
+      "slug": "project-three",
+      "subtitle": "Coming next",
+      "description": "An upcoming project intended to demonstrate deeper engineering skills, thoughtful data modeling, and practical implementation of a complete application.",
+      "screenshots": [],
+      "technologies": [
+        {
+          "name": "Next.js",
+          "primary": true
+        },
+        {
+          "name": "TypeScript",
+          "primary": true
+        },
+        {
+          "name": "Database Design"
+        }
+      ]
+    }
+  ],
+  "skillSet": [
+    {
+      "number": "01",
+      "title": "Frontend",
+      "description": "Interfaces built with modern frameworks, reusable components and strong frontend fundamentals.",
+      "skills": [
+        "React.js",
+        "Next.js",
+        "JavaScript",
+        "TypeScript",
+        "React Hooks",
+        "HTML5",
+        "CSS3",
+        "SCSS / SASS",
+        "Tailwind CSS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "number": "02",
+      "title": "UI / UX",
+      "description": "Responsive and accessible experiences designed to remain consistent across devices and browsers.",
+      "skills": [
+        "Responsive Design",
+        "WCAG",
+        "Semantic HTML",
+        "Figma",
+        "UI Implementation",
+        "Cross-Browser Compatibility"
+      ]
+    },
+    {
+      "number": "03",
+      "title": "Backend",
+      "description": "Server-side applications, APIs and authentication built around clear application logic.",
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "Middleware",
+        "JWT",
+        "Authentication",
+        "Authorization",
+        "MVC",
+        "Error Handling"
+      ]
+    },
+    {
+      "number": "04",
+      "title": "Databases",
+      "description": "Database-driven applications with structured schemas, relationships and reliable data workflows.",
+      "skills": [
+        "MongoDB",
+        "Mongoose",
+        "MySQL",
+        "SQL",
+        "Schema Design",
+        "Database Design",
+        "Data Modeling",
+        "CRUD Operations"
+      ]
+    },
+    {
+      "number": "05",
+      "title": "Architecture",
+      "description": "System-level thinking across rendering strategies, application structure and scalable design.",
+      "skills": [
+        "SSR / CSR",
+        "LLD / HLD",
+        "Monolithic Architecture",
+        "Microservices",
+        "Scalable Architecture",
+        "Modular Architecture"
+      ]
+    },
+    {
+      "number": "06",
+      "title": "Tooling",
+      "description": "Development workflows, performance practices and tooling that support reliable delivery.",
+      "skills": [
+        "Rendering Optimization",
+        "Git",
+        "GitHub",
+        "NPM",
+        "CI / CD",
+        "Environment Variables",
+        "Lazy Loading",
+        "Dynamic Imports",
+        "Code Splitting",
+        "Image Optimization"
+      ]
+    },
+    {
+      "number": "07",
+      "title": "Engineering",
+      "description": "Practices focused on maintainability, reliability and solving problems effectively.",
+      "skills": [
+        "Clean Code",
+        "Debugging",
+        "Technical Documentation",
+        "Code Reusability",
+        "Problem Solving",
+        "Data Structures",
+        "Algorithms"
+      ]
+    }
+  ]
+}
