@@ -186,7 +186,7 @@ export default function Work({ scrollTo }: WorkProps) {
             From concept to implementation
           </p>
 
-          <h2 className="text-5xl font-black leading-[0.96] tracking-[-0.065em] text-[#F5F7F6] sm:text-6xl md:text-7xl">
+          <h2 className="text-5xl font-black leading-[0.96] tracking-[-0.015em] md:tracking-[-0.065em] text-[#F5F7F6] sm:text-6xl md:text-7xl">
             BUILT WITH <span className="text-[#10B981]">PURPOSE.</span>
           </h2>
 

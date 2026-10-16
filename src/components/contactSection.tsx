@@ -225,7 +225,7 @@ export default function Contact({ scrollTo }: contactProps) {
           </motion.p>
 
           <motion.h2
-            className="max-w-[1250px] text-[clamp(3.5rem,8vw,8rem)] font-black leading-[0.84] tracking-[-0.04em] text-[#F5F7F6]"
+            className="max-w-[1250px] text-[clamp(3.5rem,8vw,8rem)] font-black leading-[0.86] md:leading-[0.84] tracking-[-0.01em] md:tracking-[-0.04em] text-[#F5F7F6]"
             variants={headline}
             initial={shouldReduceMotion ? false : "hidden"}
             whileInView="visible"

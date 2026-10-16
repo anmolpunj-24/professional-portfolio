@@ -185,7 +185,7 @@ export default function Home() {
                 variants={headline}
                 initial="hidden"
                 animate="visible"
-                className="relative max-w-[1200px] text-[clamp(4rem,10vw,10rem)] font-black leading-[0.82] tracking-[-0.075em]"
+                className="relative max-w-[1200px] text-[clamp(4rem,10vw,10rem)] font-black leading-[0.82] tracking-[-0.015em] lg:tracking-[-0.075em]"
               >
                 <span className="block overflow-hidden pb-[0.06em]">
                   <motion.span variants={headlineLine} className="block">
@@ -242,7 +242,7 @@ export default function Home() {
                     <a
                       href="/resume.pdf"
                       download="Anmol-Punj-Full-Stack-Developer-Resume.pdf"
-                      className="group inline-flex w-fit items-center gap-3 border border-[#10B981] bg-[#10B981] py-4 pl-3 pr-6 text-[10px] font-bold uppercase tracking-[0.18em] text-[#050706] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#34D399] hover:bg-[#059669] hover:shadow-[0_0_25px_rgba(16,185,129,0.2)]"
+                      className="group inline-flex w-fit items-center gap-3 border border-[#10B981] bg-[#10B981] py-4 pl-3 pr-6 text-xs font-bold uppercase tracking-[0.18em] text-[#050706] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#34D399] hover:bg-[#059669] hover:shadow-[0_0_25px_rgba(16,185,129,0.2)]"
                     >
                       <Download
                         size={17}
@@ -272,7 +272,7 @@ export default function Home() {
                   duration: shouldReduceMotion ? 0 : 0.8,
                   delay: shouldReduceMotion ? 0 : 1.25,
                 }}
-                className="mt-14 flex items-center justify-between gap-4 border-t border-[#10B981]/25 pt-5 sm:mt-16"
+                className="mt-14 flex items-center text-center justify-between gap-4 border-t border-[#10B981]/25 pt-5 sm:mt-16"
               >
                 <span className="cursor-default text-[10px] font-bold uppercase tracking-[0.2em] text-[#84938B]">
                   Based in <span className="text-[#34D399]">India</span>
@@ -327,7 +327,7 @@ export default function Home() {
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.3 }}
                 >
-                  <h2 className="text-5xl font-black leading-[0.95] tracking-[-0.055em] md:text-7xl">
+                  <h2 className="text-5xl font-black leading-[0.95] tracking-[-0.015em] md:tracking-[-0.055em] md:text-7xl">
                     FROM
                     <br />
                     <span className="text-[#F5F7F6]">INTERFACE</span>

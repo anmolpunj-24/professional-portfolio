@@ -123,7 +123,7 @@ export default function Skills({ scrollTo }: SkillsProps) {
               </span>
             </div>
 
-            <h2 className="text-5xl font-semibold leading-[0.98] tracking-[-0.065em] sm:text-6xl md:text-7xl lg:text-[88px]">
+            <h2 className="text-5xl font-semibold leading-[0.98] tracking-[-0.015em] md:tracking-[-0.065em] sm:text-6xl md:text-7xl lg:text-[88px]">
               More than
               <br />
               <span className="bg-gradient-to-r from-emerald-300 via-emerald-400 to-teal-200 bg-clip-text text-transparent">

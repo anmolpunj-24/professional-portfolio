@@ -82,7 +82,7 @@ export default function About({ scrollTo }: aboutProps) {
             whileInView="visible"
             viewport={{ once: true, amount: 0.25 }}
           >
-            <h2 className="max-w-full text-4xl font-black leading-[1.05] tracking-[-0.055em] md:text-4xl lg:text-6xl xl:text-7xl">
+            <h2 className="max-w-[1400px] text-4xl font-black leading-[1.05] tracking-[-0.015em] lg:tracking-[-0.055em] md:text-4xl lg:text-6xl xl:text-7xl">
               I LIKE
               <br />
               <span className="text-[#F5F7F6]">UNDERSTANDING</span>
@@ -111,7 +111,7 @@ export default function About({ scrollTo }: aboutProps) {
           </motion.div>
 
           <motion.div
-            className="min-w-0 md:w-[52%] md:flex-1 grid gap-3 max-w-[40%]"
+            className="min-w-0 md:w-[52%] md:flex-1 grid gap-3 md:max-w-[40%] mt-4 md:mt-0 w-full"
             variants={staggerContainer}
             initial="hidden"
             whileInView="visible"
@@ -183,7 +183,7 @@ export default function About({ scrollTo }: aboutProps) {
                 className="group border border-[#10B981]/30 bg-[#080C0A] p-7 transition-all duration-300 hover:-translate-y-1 hover:border-[#10B981]/70 hover:bg-[#0C1510] hover:shadow-[0_0_25px_rgba(16,185,129,0.07)]"
               >
                 <p className="text-5xl font-black tracking-[-0.06em] text-[#10B981] transition-colors duration-300 group-hover:text-[#34D399]">
-                  3<span className="text-[#34D399]">+</span>
+                  3<span className="text-[#34D399]"> +</span>
                 </p>
 
                 <div className="mt-4 h-[2px] w-8 bg-[#10B981]/70 transition-all duration-300 group-hover:w-14 group-hover:bg-[#34D399]" />
@@ -198,7 +198,7 @@ export default function About({ scrollTo }: aboutProps) {
                 className="group border border-[#10B981]/30 bg-[#080C0A] p-7 transition-all duration-300 hover:-translate-y-1 hover:border-[#10B981]/70 hover:bg-[#0C1510] hover:shadow-[0_0_25px_rgba(16,185,129,0.07)]"
               >
                 <p className="text-5xl font-black tracking-[-0.06em] text-[#10B981] transition-colors duration-300 group-hover:text-[#34D399]">
-                  6<span className="text-[#34D399]">+</span>
+                  6<span className="text-[#34D399]"> +</span>
                 </p>
 
                 <div className="mt-4 h-[2px] w-8 bg-[#10B981]/70 transition-all duration-300 group-hover:w-14 group-hover:bg-[#34D399]" />
