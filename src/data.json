@@ -11,17 +11,8 @@
       "role": "Full-stack development — frontend, backend APIs, database modeling, and CMS workflows.",
       "problem": "E-commerce operations require connected workflows for managing catalog data, product variants, customer information, and storefront content. These workflows need consistent data relationships and reliable validation across the application.",
       "solution": "Built a Next.js-based CMS with a Node.js and Express backend, using MongoDB and Mongoose for persistence. Organized backend logic into controllers, services, and repositories to separate request handling, business rules, and database access.",
-      "features": [
-        "Product and category management with product variants, images, and SEO metadata",
-        "Customer management, authentication, and customer address workflows",
-        "Structured backend architecture using controllers, services, and repositories",
-        "Cart, wishlist, and order management workflows",
-        "Content management modules for page SEO, FAQs, tags, blogs, and coupons",
-        "Role and permission management for administrative access control"
-      ],
-      "engineering": "Designed related data models for products and variants, customers and addresses, and orders and order items. Implemented server-side validation, reusable API layers, and active-record filtering rules for normal users, with administrative access handled separately.",
       "outcome": "Developed a modular e-commerce CMS foundation with connected catalog, customer, and order workflows, designed to support ongoing storefront and administrative feature development.",
-      "screenshots": [],
+      "screenshot": "/project-screenshots/swaad-admin.jpeg",
       "technologies": [
         {
           "name": "Next.js",
@@ -55,45 +46,72 @@
     },
     {
       "number": "02 / 03",
-      "status": "upcoming",
-      "title": "PROJECT TWO",
-      "slug": "project-two",
-      "subtitle": "Coming next",
-      "description": "An upcoming project focused on solving a practical problem through thoughtful product design, maintainable application architecture, and reliable full-stack implementation.",
-      "screenshots": [],
-      "technologies": [
-        {
-          "name": "React",
-          "primary": true
-        },
-        {
-          "name": "Node.js",
-          "primary": true
-        },
-        {
-          "name": "REST APIs"
-        }
-      ]
-    },
-    {
-      "number": "03 / 03",
-      "status": "upcoming",
-      "title": "PROJECT THREE",
-      "slug": "project-three",
-      "subtitle": "Coming next",
-      "description": "An upcoming project intended to demonstrate deeper engineering skills, thoughtful data modeling, and practical implementation of a complete application.",
-      "screenshots": [],
+      "status": "live",
+      "title": "ScaleHealthTech Admin",
+      "slug": "scalehealthtech-admin",
+      "subtitle": "Content Management System",
+      "live": "https://scalehealthtech.com/scht-admin",
+      "description": "A CMS dashboard for managing website content and administrative workflows, including articles, tags, categories, article previews, and user management.",
+      "role": "Frontend development — Next.js, vanilla CSS, API integration, and CMS module enhancements.",
+      "problem": "Content management requires organized workflows for creating and managing articles, categorizing content, previewing published material, and handling user administration.",
+      "solution": "Enhanced CMS modules for article management, tags, categories, article previews, and user management using Next.js and vanilla CSS. Integrated APIs to connect frontend interfaces with backend functionality.",
+      "outcome": "Improved content management workflows and administrative interfaces, making it easier to manage structured website content and related operations.",
       "technologies": [
         {
           "name": "Next.js",
           "primary": true
         },
         {
-          "name": "TypeScript",
+          "name": "React",
           "primary": true
         },
         {
-          "name": "Database Design"
+          "name": "Vanilla CSS",
+          "primary": true
+        },
+        {
+          "name": "REST APIs",
+          "primary": true
+        },
+        {
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "number": "03 / 03",
+      "status": "live",
+      "title": "ScaleHealthTech",
+      "slug": "scalehealthtech",
+      "subtitle": "Healthcare Technology Website",
+      "live": "https://scalehealthtech.com",
+      "description": "A healthcare technology website enhanced with improved service pages, search engine optimization, and a more refined frontend experience.",
+      "role": "Frontend development — Next.js, vanilla CSS, service page enhancements, SEO improvements, and API integration.",
+      "problem": "Service pages need to communicate offerings clearly, provide a consistent user experience, and follow SEO best practices to improve discoverability in search engines.",
+      "solution": "Enhanced website service pages and contributed to overall SEO improvements, alongside frontend development using Next.js and vanilla CSS and API integration where required.",
+      "outcome": "Improved service page presentation and strengthened the website's SEO implementation, supporting a clearer user experience and better search visibility.",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "primary": true
+        },
+        {
+          "name": "React",
+          "primary": true
+        },
+        {
+          "name": "Vanilla CSS",
+          "primary": true
+        },
+        {
+          "name": "SEO",
+          "primary": true
+        },
+        {
+          "name": "REST APIs"
+        },
+        {
+          "name": "JavaScript"
         }
       ]
     }

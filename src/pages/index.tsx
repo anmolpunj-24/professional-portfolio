@@ -299,7 +299,9 @@ export default function Home() {
           </section>
 
           <About scrollTo="about" />
+
           <Skills scrollTo="skills" />
+
           <Work scrollTo="work" />
 
           <section className="relative overflow-hidden border-t border-[#10B981]/25 bg-[#080C0A] px-6 py-28 lg:px-10 lg:py-40">
