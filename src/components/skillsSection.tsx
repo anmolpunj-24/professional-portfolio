@@ -94,7 +94,7 @@ export default function Skills({ scrollTo }: SkillsProps) {
   return (
     <section
       id={scrollTo}
-      className="relative isolate overflow-hidden bg-[#050706] px-5 py-24 text-white sm:px-8 sm:py-32 lg:px-12 lg:py-36"
+      className="relative isolate overflow-hidden bg-[#050706] px-5 py-20 text-white sm:px-8 sm:py-26 lg:px-12 lg:py-32"
     >
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-[0.16] [background-image:linear-gradient(rgba(255,255,255,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.035)_1px,transparent_1px)] [background-size:72px_72px]" />
 
@@ -102,7 +102,7 @@ export default function Skills({ scrollTo }: SkillsProps) {
 
       <div className="pointer-events-none absolute -right-48 top-[38%] -z-10 h-[460px] w-[460px] rounded-full bg-teal-500/[0.055] blur-[150px]" />
 
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-[1400px]">
         <motion.div
           variants={reveal}
           initial="hidden"

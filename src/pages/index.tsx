@@ -113,7 +113,7 @@ export default function Home() {
         <Header />
 
         <main>
-          <section className="relative flex min-h-screen items-end overflow-hidden px-6 pb-16 pt-32 lg:px-10 lg:pb-20">
+          <section className="relative flex items-end overflow-hidden px-6 pb-16 pt-32 lg:px-10 lg:pb-20">
             <motion.div
               aria-hidden="true"
               initial={false}
@@ -221,11 +221,11 @@ export default function Home() {
                     },
                   },
                 }}
-                className="mt-10 flex flex-col justify-between gap-8 sm:mt-12 lg:flex-row lg:items-end lg:gap-10"
+                className="mt-10 flex flex-col justify-between gap-8 sm:mt-12 xl:flex-row xl:items-end lg:gap-10"
               >
                 <motion.p
                   variants={reveal}
-                  className="max-w-xl text-base font-medium leading-8 text-[#A3AEA8] md:text-lg"
+                  className="xl:max-w-xl text-base font-medium leading-8 text-[#A3AEA8] md:text-lg"
                 >
                   Full Stack Developer focused on building{" "}
                   <span className="font-bold text-white">
@@ -237,10 +237,7 @@ export default function Home() {
                   </span>
                 </motion.p>
 
-                <motion.div
-                  variants={reveal}
-                  className="flex flex-col items-start gap-5"
-                >
+                <motion.div variants={reveal}>
                   <div className="flex flex-wrap items-center gap-3">
                     <a
                       href="/resume.pdf"

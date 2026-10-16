@@ -64,7 +64,7 @@ export default function Header() {
     >
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[#10B981]/30 to-transparent" />
 
-      <div className="mx-auto flex h-20 max-w-[1400px] items-center justify-between px-6 lg:px-10">
+      <div className="mx-auto flex h-20 max-w-[1400px] items-center justify-between px-6">
         <Link
           href="/"
           className="group flex items-center gap-3"

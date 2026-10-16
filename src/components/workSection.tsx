@@ -147,7 +147,7 @@ export default function Work({ scrollTo }: WorkProps) {
     >
       <div className="pointer-events-none absolute -right-52 top-32 h-[420px] w-[420px] rounded-full bg-[#10B981]/[0.045] blur-[140px]" />
 
-      <div className="relative mx-auto max-w-[1180px]">
+      <div className="relative mx-auto max-w-[1400px]">
         <motion.div
           initial={shouldReduceMotion ? false : { opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

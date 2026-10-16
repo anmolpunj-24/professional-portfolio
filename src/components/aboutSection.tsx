@@ -53,7 +53,7 @@ export default function About({ scrollTo }: aboutProps) {
   return (
     <section
       id={scrollTo}
-      className="relative overflow-hidden border-t border-[#10B981]/25 px-6 py-28 lg:px-10 lg:py-40"
+      className="relative overflow-hidden border-t border-[#10B981]/25 px-6 py-10 lg:px-10"
     >
       <div className="pointer-events-none absolute -left-40 top-32 h-96 w-96 rounded-full bg-[#10B981]/[0.035] blur-[120px]" />
 
@@ -74,14 +74,15 @@ export default function About({ scrollTo }: aboutProps) {
           </span>
         </motion.div>
 
-        <div className="grid gap-16 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="flex flex-col justify-between md:flex-row md:items-start md:gap-8 lg:gap-16">
           <motion.div
+            className="min-w-0 md:w-[48%] md:flex-none lg:w-[50%]"
             variants={revealLeft}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.25 }}
           >
-            <h2 className="max-w-4xl text-4xl font-black leading-[1.05] tracking-[-0.055em] md:text-6xl lg:text-7xl">
+            <h2 className="max-w-full text-4xl font-black leading-[1.05] tracking-[-0.055em] md:text-4xl lg:text-6xl xl:text-7xl">
               I LIKE
               <br />
               <span className="text-[#F5F7F6]">UNDERSTANDING</span>
@@ -110,7 +111,7 @@ export default function About({ scrollTo }: aboutProps) {
           </motion.div>
 
           <motion.div
-            className="grid gap-3"
+            className="min-w-0 md:w-[52%] md:flex-1 grid gap-3 max-w-[40%]"
             variants={staggerContainer}
             initial="hidden"
             whileInView="visible"
