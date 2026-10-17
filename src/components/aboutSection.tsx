@@ -76,13 +76,13 @@ export default function About({ scrollTo }: aboutProps) {
 
         <div className="flex flex-col justify-between lg:flex-row lg:items-start lg:gap-8 lg:gap-16">
           <motion.div
-            className="min-w-0 w-full md:w-[48%] md:flex-none lg:w-[50%]"
+            className="min-w-0 w-full md:flex-none lg:w-[48%]"
             variants={revealLeft}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.25 }}
           >
-            <h2 className="max-w-[1400px] text-4xl font-black leading-[1.05] tracking-[-0.015em] lg:tracking-[-0.055em] md:text-4xl lg:text-6xl xl:text-7xl">
+            <h2 className="max-w-[1400px] text-4xl font-black leading-[1.05] tracking-[-0.015em] lg:tracking-[-0.055em] md:text-5xl lg:text-6xl xl:text-7xl">
               I LIKE
               <br />
               <span className="text-[#F5F7F6]">UNDERSTANDING</span>
