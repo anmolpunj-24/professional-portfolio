@@ -74,7 +74,7 @@ export default function About({ scrollTo }: aboutProps) {
           </span>
         </motion.div>
 
-        <div className="flex flex-col justify-between md:flex-row md:items-start md:gap-8 lg:gap-16">
+        <div className="flex flex-col justify-between lg:flex-row lg:items-start lg:gap-8 lg:gap-16">
           <motion.div
             className="min-w-0 md:w-[48%] md:flex-none lg:w-[50%]"
             variants={revealLeft}
