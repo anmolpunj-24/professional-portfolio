@@ -111,7 +111,7 @@ export default function About({ scrollTo }: aboutProps) {
           </motion.div>
 
           <motion.div
-            className="min-w-0 md:w-[52%] md:flex-1 grid gap-3 md:max-w-[40%] mt-4 md:mt-0 w-full"
+            className="min-w-0 lg:w-[52%] lg:flex-1 grid gap-3 lg:max-w-[40%] mt-4 lg:mt-0 w-full"
             variants={staggerContainer}
             initial="hidden"
             whileInView="visible"
