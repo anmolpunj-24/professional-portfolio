@@ -76,7 +76,7 @@ export default function About({ scrollTo }: aboutProps) {
 
         <div className="flex flex-col justify-between lg:flex-row lg:items-start lg:gap-8 lg:gap-16">
           <motion.div
-            className="min-w-0 md:w-[48%] md:flex-none lg:w-[50%]"
+            className="min-w-0 w-full md:w-[48%] md:flex-none lg:w-[50%]"
             variants={revealLeft}
             initial="hidden"
             whileInView="visible"
@@ -90,7 +90,7 @@ export default function About({ scrollTo }: aboutProps) {
               <span className="text-[#10B981]">HOW THINGS WORK.</span>
             </h2>
 
-            <p className="mt-8 max-w-lg text-sm font-medium leading-7 text-[#A3AEA8]">
+            <p className="mt-8 w-full lg:max-w-lg text-sm font-medium leading-7 text-[#A3AEA8]">
               I don't just want to build things that look good. I want to
               understand the systems behind them, solve real problems, and
               create products that work beautifully from{" "}
